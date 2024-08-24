@@ -1,0 +1,47 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    padding: 0;
+
+}
+
+
+
+#imagen-encabezado,#texto-encabezado{
+
+    width: 50vw;
+    height: 50vh;
+    box-sizing: border-box;
+    float:left;
+}
+
+#imagen-encabezado{
+    background-color: red;
+    place-content: center;
+    text-align: center;
+}
+
+#texto-encabezado{
+    padding-top: 10vw;
+    text-align: center;
+    background-color: blue;
+}
+
+#texto-encabezado h1{
+    font-size: 45px;
+}
+
+#texto-encabezado h1,h3{
+    text-align: end;
+    margin-right: 15vw;
+}
+
+#texto-encabezado p{
+    background-color: green;
+    text-align: justify;
+    padding-top: 1vw;
+    padding-right: 15vw;
+    padding-left: 15vw;
+
+
+}
