@@ -6,42 +6,125 @@
 }
 
 
+body{
+   
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Hace que el contenedor ocupe al menos la altura completa de la ventana */
+    
+    
+}
 
-#imagen-encabezado,#texto-encabezado{
-
-    width: 50vw;
-    height: 50vh;
+#contenedor{
+    width:100vw;
+    height: 20vw;
+    display: flex;
     box-sizing: border-box;
-    float:left;
 }
 
-#imagen-encabezado{
-    background-color: red;
-    place-content: center;
-    text-align: center;
+#contenedor-imagen{
+    box-sizing: border-box;
+    width:50%;
+    text-align: right;
+    align-content: center;
+
 }
 
-#texto-encabezado{
-    padding-top: 10vw;
-    text-align: center;
-    background-color: blue;
+#contenedor-imagen img{
+    max-width: 60%;
+    height: auto;
+
 }
 
-#texto-encabezado h1{
+#contenedor-parrafos{
+    width:50%;
+    align-content: center; 
+    margin-right: 9vw;
+    box-sizing: border-box;
+    text-align: right;
+    
+}
+
+#titulo, #subtitulo, #texto{
+    padding-right: 10vw;
+    
+}
+
+#titulo{
     font-size: 45px;
+    margin-bottom: 5px;
 }
 
-#texto-encabezado h1,h3{
-    text-align: end;
-    margin-right: 15vw;
+#subtitulo{
+    margin-bottom: 10px;
+    color:#C0C0C0;
+    font-size: 20px;
 }
 
-#texto-encabezado p{
-    background-color: green;
+#texto{
     text-align: justify;
+    padding-left: 17vw;
+}
+
+
+#menu ul{
+    background-color: #BF0514;
+    width: 100vw;
+    height: 3vw;
+
+    box-sizing: border-box;
+    list-style: none;
+    display: flex;
+    gap: 10vw;
+    justify-content:center;
+
     padding-top: 1vw;
-    padding-right: 15vw;
-    padding-left: 15vw;
+    
+}
 
+#menu a{
+    text-decoration: none;
+    color:white;
+}
 
+#cajas{
+    width: 100vw;
+    height: 15vw;
+    display: flex;
+    float: left;
+    gap:10vw;
+    margin-top: 3vw;
+   
+
+    justify-content: center;
+
+}
+
+#caja1{
+    background-color:#BF0514;
+    width: 15vw;
+    height: 15vw;
+}
+
+#caja2{
+    background-color:#4A6BA1;
+    width: 15vw;
+    height: 15vw;
+}
+
+#caja3{
+    background-color:#C0C0C0;
+    width: 15vw;
+    height: 15vw;
+}
+
+#pie{
+    margin-top: auto;
+    height: 3vw;
+    box-sizing: border-box;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    background-color: #272929;
+
+    color: white;
 }
