@@ -100,22 +100,29 @@ body{
 
 }
 
-#caja1{
-    background-color:#BF0514;
+#caja1,#caja2,#caja3{
     width: 15vw;
     height: 15vw;
+    color: white;
+    align-content: center;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+#caja1{
+    background-color:#BF0514;
+    
 }
 
 #caja2{
     background-color:#4A6BA1;
-    width: 15vw;
-    height: 15vw;
+    
 }
 
 #caja3{
     background-color:#C0C0C0;
-    width: 15vw;
-    height: 15vw;
+
 }
 
 #pie{
@@ -125,6 +132,6 @@ body{
     padding-left: 1vw;
     padding-top: 1vw;
     background-color: #272929;
-
+    font-size: 10px;
     color: white;
 }
